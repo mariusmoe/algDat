@@ -1,0 +1,2 @@
+# algDat
+algoritmer og datastrukturer
