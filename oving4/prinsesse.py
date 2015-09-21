@@ -4,6 +4,7 @@ import traceback
 def subgraftetthet(nabomatrise, startnode):
     n = len(nabomatrise)
     # SKRIV DIN KODE HER
+    #lll
     if noder == 0:
         return 0.0
     else:
