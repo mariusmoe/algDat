@@ -41,7 +41,7 @@ def posisjoner(ord, indeks, node):
     bug = False
     se = set()
     ub=[]
-
+    #test for git
     def pas(ord, indeks, node):
         current_node = node
         for i in range(indeks,len(ord)):
