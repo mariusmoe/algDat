@@ -5,6 +5,7 @@ def subgraftetthet(nabomatrise, startnode):
     n = len(nabomatrise)
     # SKRIV DIN KODE HER
     #lll
+    #ppppp
     if noder == 0:
         return 0.0
     else:
