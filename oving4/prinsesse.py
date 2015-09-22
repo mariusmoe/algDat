@@ -3,8 +3,16 @@ import traceback
 
 def subgraftetthet(nabomatrise, startnode):
     n = len(nabomatrise)
-    # SKRIV DIN KODE HER
-    #lll
+    visited = []
+    #noder = 0
+    
+    for i in range(startnode,n):
+        for m in range(n):
+            print nabomatrise[i][m]
+            if nabomatrise[i][m] == True:
+                visited.append(nabomatrise[i][m])
+        print "---------------------------new row"
+    noder=n-len(visited)
     if noder == 0:
         return 0.0
     else:
