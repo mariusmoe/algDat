@@ -9,6 +9,7 @@ def subgraftetthet(nabomatrise, startnode):
     
     #noder = 0
     #sdfsdfs
+    #oooooo
     for o in range(n):
         current = nabomatrise[startnode][o]
         if current == True:
