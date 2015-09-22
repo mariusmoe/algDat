@@ -4,6 +4,7 @@ import traceback
 def subgraftetthet(nabomatrise, startnode):
     n = len(nabomatrise)
     visited = []
+<<<<<<< HEAD
     can = []
     
     #noder = 0
@@ -25,6 +26,9 @@ def subgraftetthet(nabomatrise, startnode):
             
             
             
+=======
+    #noder = 0
+>>>>>>> 6d06eb627f0690ba968dcabe0147fb2f44474b83
     
     for i in range(startnode,n):
         for m in range(n):
