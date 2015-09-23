@@ -4,33 +4,31 @@ import traceback
 def subgraftetthet(nabomatrise, startnode):
     n = len(nabomatrise)
     visited = []
-<<<<<<< HEAD
+    
+
+
     can = []
+    for o in range(n):
+            current = nabomatrise[startnode][o]
+            if current == True:
+                cango.add(o)
     
     #noder = 0
     #sdfsdfs
     #oooooo
-    for o in range(n):
-        current = nabomatrise[startnode][o]
-        if current == True:
-            can.append(current)
+    while len(can)!=0:
+        row = can.pop()
             
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-=======
-    #noder = 0
->>>>>>> 6d06eb627f0690ba968dcabe0147fb2f44474b83
-    
+        for i in range(n):
+            current = nabomatrise[row][i]
+            if current == True and i is not in visited:
+                can.append(i)
+                
+        visited.append(row)
+                
+                
+                
+    """           
     for i in range(startnode,n):
         for m in range(n):
             print nabomatrise[i][m]
@@ -42,7 +40,7 @@ def subgraftetthet(nabomatrise, startnode):
         return 0.0
     else:
         return float(kanter) / float(noder**2)
-
+    """
 
 try:
     n = int(stdin.readline())
