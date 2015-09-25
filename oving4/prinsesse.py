@@ -23,8 +23,8 @@ def subgraftetthet(nabomatrise, startnode):
     noder = n
     while len(can)!=0:
         row = can.pop()
-        while row in visited and len(can)!=0:
-            row = can.pop()
+        #while row in visited and len(can)!=0:
+         #   row = can.pop()
             
         for i in range(n):
             current = nabomatrise[row][i]
@@ -44,7 +44,7 @@ def subgraftetthet(nabomatrise, startnode):
             if nabomatrise[u][w] == True:
                 count +=1
     
-    kanter = count-kanter     
+    #kanter = count-kanter     
     """           
     for i in range(startnode,n):
         for m in range(n):
@@ -56,11 +56,18 @@ def subgraftetthet(nabomatrise, startnode):
     if bug:
             
         #noder=n-len(visited)
+        print "count: ", count
         print "kanter: ",kanter
         print "noder: ", noder
-        print "visited: ", len(visited)
-    if len(visited) == n-1:
-        kanter = 0
+        print "visited: ", visited
+        
+        print "-------------"
+        print "noder i subgrafen: ", noder
+    S = set(visited)
+    noder = n-len(S)-1
+        
+    if noder == 1:
+        noder = 0
    
     
     if noder == 0:
