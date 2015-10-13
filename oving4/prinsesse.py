@@ -14,6 +14,7 @@ def subgraftetthet(nabomatrise, startnode):
             if current == True:
                 can.append(o)
                 kanter +=1
+    #visited.append(current)
     
     #noder = 0
     #sdfsdfs
