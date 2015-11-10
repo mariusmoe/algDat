@@ -3,11 +3,11 @@ import traceback
 
 def subgraftetthet(nabomatrise, startnode):
     n = len(nabomatrise)
-<<<<<<< HEAD
+
     # SKRIV DIN KODE HER
     #lll
     #ppppp
-=======
+
     visited = []
     bug = False
     
