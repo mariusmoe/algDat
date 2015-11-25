@@ -3,19 +3,15 @@ from itertools import repeat
 
 def merge(decks):
     # SKRIV DIN KODE HER
-    bug = False
+    bug = True
     
     def merge1(decks):
         li = []
         try:
             while decks[0]:    
-                big = 0
-                letter = ''
-                pointer = 0
-                counter = 0
+                big, letter, pointer, counter = 0, '', 0, 0
                 for lists in decks:
                     try:
-                        
                         if lists[-1][0] > big:
                             big = lists[-1][0]
                             letter = lists[-1][1]
